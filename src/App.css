@@ -1,0 +1,309 @@
+@import url("https://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Post No Bills Jaffna", "sans-serif", "Poppinss";
+}
+body {
+  background-color: rgba(0, 0, 0, 1);
+  scroll-behavior: smooth !important;
+}
+header {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 14px 0px;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(150, 150, 150, 1);
+}
+.header_flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header_flex p {
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+@media (max-width: 605px) {
+  .header_flex p {
+    font-size: 6px;
+  }
+}
+.container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav {
+  background-color: rgba(15, 15, 15, 1);
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+.elem_right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.elem_right ul {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.h1Nav {
+  font-family: Post No Bills Jaffna;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+.navLi {
+  padding: 25px 20px;
+  list-style: none;
+  transition: 0.4s;
+}
+.navLi:hover {
+  background-color: rgba(31, 31, 31, 1);
+}
+.navLi a {
+  text-decoration: none;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(150, 150, 150, 1);
+  transition: 0.3s;
+}
+@media (max-width: 711px) {
+  .navLi a {
+    font-size: 8px;
+  }
+  .navLi {
+    padding: 8px 5px;
+  }
+  .elem_right {
+    gap: 15px;
+  }
+  .h1Nav {
+    font-size: 10px;
+  }
+}
+
+.navLi:hover a {
+  color: rgba(255, 255, 255, 1);
+}
+.navLogos {
+  display: flex;
+  gap: 30px;
+}
+aside {
+  background-image: url("developer.svg");
+  /* max-width: 2000px; */
+  margin: 0 auto;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1113px) {
+  aside {
+    width: 100%;
+  }
+  @media (max-width: 484px) {
+    .asideDiv img {
+      padding: 33px 18px !important;
+    }
+    .asideDiv {
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+    .asidep {
+      padding-bottom: 54px;
+      font-size: 12px;
+    }
+  }
+}
+.asideDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+.asideDiv img {
+  padding: 93px 68px;
+  border: 4px solid rgba(255, 255, 255, 1);
+}
+.asidep {
+  padding-bottom: 154px;
+  margin: 0 auto;
+  max-width: 730px;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+/* section  */
+section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media (max-width: 1152px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
+.SectionH2 {
+  margin-top: 93px;
+  padding-bottom: 50px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.card1 {
+  background-color: rgba(0, 0, 0, 1);
+  padding-bottom: 20px;
+}
+.hr {
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 110.77px;
+}
+.boxCard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 26px;
+}
+@media (max-width: 602px) {
+  .boxCard {
+    flex-wrap: wrap;
+  }
+}
+.cardHead {
+  padding: 35px 10px;
+  background-color: rgba(25, 27, 28, 1);
+}
+.cardHead img {
+  width: 150px;
+}
+.cardBody {
+  margin-top: 25px;
+}
+.cardBody p {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+}
+.card2 {
+  background-image: url("kibirbek.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#fix {
+  margin-top: 384px;
+  padding-bottom: 30px;
+}
+.button_card2 {
+  margin-top: 42px;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.card3 {
+  width: 100%;
+  /* height: 550px; */
+}
+.card3 img {
+  width: 100%;
+}
+.card4 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card4P {
+  margin: 0 auto;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  max-width: 471px;
+}
+.gridBox {
+  margin-top: 81px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  justify-content: center;
+  gap: 23px;
+  margin-bottom: 100px;
+}
+@media (max-width: 742px) {
+  .gridBox {
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+footer {
+  padding: 60px 0px 80px;
+  background: rgba(15, 15, 15, 1);
+}
+.ImgsDiv {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.ImgsDiv img {
+  width: 20%;
+}
