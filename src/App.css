@@ -9,10 +9,11 @@
 html,
 body {
   font-family: "Post No Bills Jaffna", "sans-serif", "Poppinss";
+  scroll-behavior: smooth !important  ;
 }
 body {
   background-color: rgba(0, 0, 0, 1);
-  scroll-behavior: smooth !important;
+  transition: 4s;
 }
 header {
   background-color: rgba(0, 0, 0, 1);
@@ -75,11 +76,12 @@ nav {
   padding: 25px 20px;
   list-style: none;
   transition: 0.4s;
+  text-decoration: none;
 }
 .navLi:hover {
   background-color: rgba(31, 31, 31, 1);
 }
-.navLi a {
+.navLi li {
   text-decoration: none;
   font-family: PT Sans;
   font-weight: 400;
@@ -91,7 +93,7 @@ nav {
   transition: 0.3s;
 }
 @media (max-width: 711px) {
-  .navLi a {
+  .navLi li {
     font-size: 8px;
   }
   .navLi {
@@ -105,7 +107,7 @@ nav {
   }
 }
 
-.navLi:hover a {
+.navLi:hover li {
   color: rgba(255, 255, 255, 1);
 }
 .navLogos {
